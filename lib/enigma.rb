@@ -17,6 +17,7 @@ class Enigma
   end
 
 end
+
 enigma = Enigma.new
 p enigma.offset_numbers
 p enigma.keygen
