@@ -9,7 +9,6 @@ require "pry"
 class KeyGeneratorTest < Minitest::Test
 
 
-
   def test_it_exists
     key = KeyGenerator.new
 
@@ -51,3 +50,11 @@ class KeyGeneratorTest < Minitest::Test
 
 
 end
+
+
+
+keys = []
+10.times do
+  keys << KeyGen.new.key
+end
+a_e k.cpunt, k.uniq.count

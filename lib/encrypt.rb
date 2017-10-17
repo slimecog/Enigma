@@ -6,13 +6,11 @@ class Encrypt
 
   def initialize(message, key, offset)
     @message = message
-    @key ||= KeyGenerator.new
+    @key = KeyGenerator.new
     @offset = Offser.new
     @character_map = CharacterMap.new
   end
 
-
-  def
 
 
 end
