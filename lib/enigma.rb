@@ -10,6 +10,7 @@ class Enigma
     keygen = keygen.rotation
   end
 
+
   def offset_numbers
     numbers = OffSet.new
     numbers.date_squared

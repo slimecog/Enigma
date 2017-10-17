@@ -9,6 +9,7 @@ require "pry"
 class KeyGeneratorTest < Minitest::Test
 
 
+
   def test_it_exists
     key = KeyGenerator.new
 

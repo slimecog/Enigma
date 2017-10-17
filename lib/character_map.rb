@@ -12,6 +12,7 @@ class CharacterMap
     character_map << (",")
     character_map * 4
   end
+
   
 end
 character_map = CharacterMap.new

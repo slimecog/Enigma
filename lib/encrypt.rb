@@ -11,7 +11,9 @@ class Encrypt
     @character_map = CharacterMap.new
   end
 
+
   def
+
 
 end
 =begin

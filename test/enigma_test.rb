@@ -8,11 +8,13 @@ require "pry"
 
 class EnigmaTest < MiniTest::Test
 
+
   def test_it_exists
     enigma = Enigma.new
 
     assert_instance_of Enigma, enigma
   end
+
 
   def test_it_creates_instance_of_keygen
     enigma = Enigma.new

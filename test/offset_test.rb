@@ -7,6 +7,7 @@ require "pry"
 class OffSetTest < Minitest::Test
 
 
+
   def test_date_is_six_digits
    offset = OffSet.new
 

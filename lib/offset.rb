@@ -10,6 +10,7 @@ class OffSet
     @offset_rotations = offset_rotations
   end
 
+
   def date_squared
     date = []
     squared = @date

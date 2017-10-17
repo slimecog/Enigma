@@ -7,6 +7,7 @@ class KeyGenerator
     @key = key
   end
 
+
   def random_five_digits
     key = []
     5.times do
