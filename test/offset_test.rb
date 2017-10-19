@@ -1,8 +1,4 @@
-require "minitest/autorun"
-require "minitest/pride"
-require "../lib/offset"
-require "pry"
-
+require "./test_helper"
 
 class OffSetTest < Minitest::Test
 

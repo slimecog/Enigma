@@ -1,10 +1,4 @@
-require 'simplecov'
-SimpleCov.start
-require "minitest/autorun"
-require "minitest/pride"
-require "../lib/key_generator"
-require "pry"
-
+require_relative "./test_helper"
 
 class KeyGeneratorTest < Minitest::Test
 
@@ -22,11 +16,13 @@ class KeyGeneratorTest < Minitest::Test
   end
 
   def test_digits_are_random
-    skip
-    key = KeyGenerator.new
-
-    assert_same (0..9), key.random_five_digits[0]
+    keys = []
+    10.times do
+      keys << KeyGenerator.new.key
+    end
+    assert_equal keys.count, keys.uniq.count
   end
+
 
   def test_it_saves_rotation_to_array
     skip
@@ -37,6 +33,7 @@ class KeyGeneratorTest < Minitest::Test
   end
 
   def test_rotation_saves_from_key
+    skip
     key = "41521"
     keygen = KeyGenerator.new
     keygen.random_five_digits
@@ -50,11 +47,3 @@ class KeyGeneratorTest < Minitest::Test
 
 
 end
-
-
-
-keys = []
-10.times do
-  keys << KeyGen.new.key
-end
-a_e k.cpunt, k.uniq.count

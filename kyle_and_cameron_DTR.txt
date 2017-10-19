@@ -1,0 +1,34 @@
+Guiding Questions to Define The Relationship:
+
+-What are your learning goals for this project? What drives us in this project?
+one thing i'm excited to learn about is ho to read and write to and from files on the computer. the opportunity to learn and implement new techniques in programming.
+-What is your collaboration style? How do you feel about pair programming vs. divide-and-conquer approaches?
+we live near each other and plan on pairing often. we may divide and conquer, but most time spent on this project will be paired.
+-How do you communicate best? How do you appreciate receiving communication from others?
+open and honest communication is key to make sure we're on the same page and understand what we need to do to move forward.
+-How would you describe your work style?
+we both prefer to break problems into smaller sections and solving them one at a time, with regular pomodoro breaks. i like to use tdd to help write a program.
+-What are your strengths? How can our strengths complement each other?
+kyle is good at researching a problem and fiding answers and cameron is good at retaining information and implementing new concepts.
+-What’s gone well or poorly in your previous projects?
+time managment coiuld be improved on both our parts. the good parts - maybe we haven't finished the projects entirely but the code we have written we are kind of proud of. it looks clean for the most part and it works!
+-How will we set direction and make decisions as a team?
+discuss the pros and cons of each direction and negotiate from there.
+-How will we overcome obstacles?
+research, discuss, implement, repeat.
+-What do you need (resources, environment, communication) to do your best work?
+we both work best in a bit of hustle and bustle.
+-What scheduling restraints do you have? What are your scheduling preferences?
+we both work best starting in the late morning and working throught the afternoon into the evening. ro restraints, really. we also live near each other which will make pairing very convenient.
+-What is your style for giving feedback? Does anything ever hold you back from giving feedback?
+clear and honest comminucation is always the best policy. worrying about offending someone is the main thing thjat would hold back from giving feedback but as long as communication is always open and honest a solution is attainable.
+-What do you identify as being your biggest strength(s) technically, as they relate to this project? Where do you feel you could use improvement in your technical skills, as they relate to this project? How can our team help support you in improving these skills?
+we are both good at effective communication and we work well in groups. something we can work on is translating thoughts to code. talking with classmates and upper module students can help us learn to write better code.
+-What tools do you want to use to manage the project?
+slack will be our main tool for communication. we will also be using github
+-How do you want the group to solve problems when members run into issues with features of the project?
+we plan trying to tackle these kind of problems individually and then to reconvene and compare our methods.
+-How do you know if a project is successful? How can we achieve that as a group?
+the project will be successful when it runs and performs every function expected of it. through hard work and determination we will achieve our goal.
+-How will we recognize each other's successes and celebrate them?
+when one person has a breakthrough working on an issue they were stuck on, we can talk about how we solved it and enjoy the moment while it lasts. high fives all around!

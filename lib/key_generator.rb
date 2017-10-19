@@ -1,5 +1,4 @@
 class KeyGenerator
-
   attr_accessor :key
 
   def initialize
@@ -11,22 +10,22 @@ class KeyGenerator
     5.times do
       key << Random.rand(0..9)
     end
-    key.join("")
+    key.to_a
   end
 
   def rotation_a
-    @key[0..1].to_i
+    @key[0..1].join.to_i
   end
 
   def rotation_b
-    @key[1..2].to_i
+    @key[1..2].join.to_i
   end
 
   def rotation_c
-    @key[2..3].to_i
+    @key[2..3].join.to_i
   end
 
   def rotation_d
-    @key[3..4].to_i
+    @key[3..4].join.to_i
   end
 end

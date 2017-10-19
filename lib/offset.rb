@@ -1,6 +1,10 @@
-class OffSet
+require_relative "./key_generator"
+require_relative "./encrypt"
 
+
+class Offset
   attr_accessor :date
+
 
   def initialize(date = "ddmmyy")
     @date = Time.now.strftime("%d%m%y")
